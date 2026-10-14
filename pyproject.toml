@@ -1,0 +1,13 @@
+[project]
+name = "rag-eval-dashboard"
+version = "2.0.0"
+description = "Evaluate RAG answers with faithfulness/relevance stub scorers and a run history dashboard."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

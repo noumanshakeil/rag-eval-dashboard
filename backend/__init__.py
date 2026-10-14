@@ -1,1 +1,2 @@
-"""Backend package."""
+"""RAG Eval Dashboard application package."""
+__version__ = "2.0.0"
